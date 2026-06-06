@@ -1,8 +1,11 @@
+import Layout from './components/Layout';
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-blue-600">
-      Hallo wereld!
-    </h1>
-  )
+    <Layout>
+      <h1 className="text-4xl font-bold mb-4">Mijn 3D Modeling Summary</h1>
+      <p>Hier komt de inhoud van je samenvatting...</p>
+    </Layout>
+  );
 }
-export default App
+export default App;
